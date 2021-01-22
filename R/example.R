@@ -99,7 +99,7 @@ imp_xgb_cix=xgb.importance(colnames(x_train), model = xgb_cix_m$models[[1]])
 
 xgb.plot.importance(imp_xgb,top_n = 10)
 xgb.plot.importance(imp_xgb_cix,top_n = 10)
-
+#ggplot
 (gg <- xgb.ggplot.importance(imp_xgb, top_n = 10,measure = "Frequency", rel_to_first = TRUE))
 gg + ggplot2::ylab("Frequency")
 
