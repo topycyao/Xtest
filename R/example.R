@@ -9,9 +9,6 @@ library(survcomp)
 library(data.table)
 library(ggplot2)
 library(Ckmeans.1d.dp)
-source('loss_func.R')
-source('xgb.sur')
-source('lgb.sur')
 
 n <- 1000
 p <- 100
