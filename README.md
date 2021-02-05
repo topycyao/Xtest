@@ -1,3 +1,3 @@
 # Xsurv
  
-a package used for survival model with xgboost and light gbm
+a package used for survival model with xgboost and lightgbm.
