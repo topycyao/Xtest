@@ -5,7 +5,6 @@ library(dplyr)
 library(magrittr)
 library(survcomp)
 library(data.table)
-source('loss_func.R')
 #using xgboost with loss function of cox paritial likelihood or cindex
 
 xgb.sur<-function(datax,datay,method=c('defaut','pl','C'),nfolds=5,nround=NULL,
