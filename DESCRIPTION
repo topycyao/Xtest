@@ -1,4 +1,4 @@
-Package: xgblgbcox
+Package: Xsurv
 Title: xgboost and light gbm
 Version: 0.0.0.9000
 Authors@R: 
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "Sijie.yao@moffitt.org",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: xgboost and light gbm for cox model.
+Description: xgboost and light gbm for survival models.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
 Encoding: UTF-8
