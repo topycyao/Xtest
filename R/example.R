@@ -1,8 +1,8 @@
 #example
 
 source('Xsurv/loss_func.R')
-source('Xsurv/xgb.sur')
-source('Xsurv/lgb.sur')
+source('Xsurv/xgb.sur.R')
+source('Xsurv/lgb.sur.R')
 
 n <- 1000
 p <- 100
