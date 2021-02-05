@@ -1,14 +1,8 @@
 #example
-library(MASS)
-library(xgboost)
-library(survival)
-library(dplyr)
-library(magrittr)
-library(lightgbm)
-library(survcomp)
-library(data.table)
-library(ggplot2)
-library(Ckmeans.1d.dp)
+
+source('Xsurv/loss_func.R')
+source('Xsurv/xgb.sur')
+source('Xsurv/lgb.sur')
 
 n <- 1000
 p <- 100
